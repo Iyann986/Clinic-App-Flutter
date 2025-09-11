@@ -4,6 +4,7 @@ import 'package:clinic_app_flutter/core/components/custom_text_field.dart';
 import 'package:clinic_app_flutter/core/constants/app_label.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
 import 'package:clinic_app_flutter/core/themes/styles/clinic_textstyle.dart';
+import 'package:clinic_app_flutter/presentation/home/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -291,12 +292,18 @@ class _RegisterUserDataScreenState extends State<RegisterUserDataScreen> {
           height: 48,
           label: 'Simpan',
           onPressed: () {
-            // Navigator.push(
+            // Navigator.pushReplacement(
             //   context,
             //   MaterialPageRoute(
-            //     builder: (context) => const TermsOfServiceScreen(),
+            //     builder: (context) => const HomeScreen(),
             //   ),
             // );
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const HomeScreen(initialIndex: 0),
+              ),
+            );
           },
         ),
       ),

@@ -18,4 +18,15 @@ class AppLabel {
   static const homeDescText =
       'Layanan telemedisin yang siap siaga untuk bantu kamu hidup lebih sehat.';
   static const searchDoctorText = 'Cari Dokter';
+
+  /// MARK: NavBar Label
+  static const chatAppBAr = 'Chat';
+  static const telemedisAppBar = 'Telemedis';
+  static const historyAppBar = 'Riwayat';
+  static const profileAppBar = 'Profil';
+
+  /// MARK: History Label
+  static const emptyHistoryTitle = 'Belum ada Transaksi';
+  static const emptyHistoryDesc =
+      'Belum ada transaksi yang tercatat. Mulai lakukan transaksi untuk melihat datanya di sini.';
 }
