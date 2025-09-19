@@ -1,6 +1,7 @@
 import 'package:clinic_app_flutter/core/constants/app_label.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
 import 'package:clinic_app_flutter/core/themes/styles/clinic_textstyle.dart';
+import 'package:clinic_app_flutter/presentation/history/widgets/empty_history.dart';
 import 'package:flutter/material.dart';
 
 class HistoryScreen extends StatefulWidget {
@@ -38,7 +39,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
         ),
       ),
       body: const Center(
-        child: Text('History Screen Content'),
+        child: Padding(
+          padding: EdgeInsets.only(top: 100.0),
+          child: EmptyHistory(),
+        ),
       ),
     );
   }

@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:clinic_app_flutter/core/assets/resource_path.dart';
 import 'package:clinic_app_flutter/core/components/button.dart';
 import 'package:clinic_app_flutter/core/constants/app_label.dart';

@@ -3,6 +3,7 @@ import 'package:clinic_app_flutter/core/constants/app_label.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
 import 'package:clinic_app_flutter/core/themes/styles/clinic_textstyle.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class EmptyHistory extends StatelessWidget {
   const EmptyHistory({super.key});
@@ -11,8 +12,13 @@ class EmptyHistory extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Image.asset(
-          ResourcePath.emptyHistoryPng,
+        // Image.asset(
+        //   ResourcePath.emptyHistoryPng,
+        //   width: 220.0,
+        //   fit: BoxFit.cover,
+        // ),
+        SvgPicture.asset(
+          ResourcePath.emptyHistorySvg,
           width: 220.0,
           fit: BoxFit.cover,
         ),

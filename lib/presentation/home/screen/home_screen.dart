@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:clinic_app_flutter/core/assets/resource_path.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
 import 'package:clinic_app_flutter/presentation/chat/screen/chat_screen.dart';

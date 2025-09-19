@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:clinic_app_flutter/core/assets/resource_path.dart';
 import 'package:clinic_app_flutter/core/constants/app_label.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
@@ -86,17 +88,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 color: const Color(0xff677294).withOpacity(0.16),
               ),
             ),
-            const SizedBox(height: 16),
-            _menuItem(
-              ResourcePath.icDocumentSvg,
-              'Kebijakan Layanan',
+            InkWell(
+              child: _menuItem(
+                ResourcePath.icDocumentSvg,
+                'Kebijakan Layanan',
+              ),
             ),
-            const SizedBox(height: 16),
-            _menuItem(
-              ResourcePath.icHelpSvg,
-              'Bantuan',
+            InkWell(
+              onTap: () {},
+              child: _menuItem(
+                ResourcePath.icHelpSvg,
+                'Bantuan',
+              ),
             ),
-            const SizedBox(height: 16),
             InkWell(
               onTap: () {},
               child: _menuItem(
@@ -115,7 +119,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       margin: const EdgeInsets.symmetric(
         horizontal: 20,
       ),
-      padding: const EdgeInsets.only(bottom: 16),
+      padding: const EdgeInsets.only(bottom: 16, top: 16),
       decoration: BoxDecoration(
         border: Border(
           bottom: BorderSide(

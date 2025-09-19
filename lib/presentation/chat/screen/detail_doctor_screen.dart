@@ -1,3 +1,6 @@
+// ignore_for_file: deprecated_member_use
+
+import 'package:clinic_app_flutter/core/assets/resource_path.dart';
 import 'package:clinic_app_flutter/core/components/button.dart';
 import 'package:clinic_app_flutter/core/constants/color.dart';
 import 'package:clinic_app_flutter/core/extensions/string_ext.dart';
@@ -107,7 +110,7 @@ class DetailDoctorScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(width: 16),
                                 Image.asset(
-                                  'assets/icons/person_history.png',
+                                  ResourcePath.icPersonHistoryPng,
                                   width: 18,
                                   height: 18,
                                 ),
@@ -128,7 +131,7 @@ class DetailDoctorScreen extends StatelessWidget {
                           width: 24.0,
                           height: 24.0,
                           child: SvgPicture.asset(
-                            'assets/svg/chat_assets/chat.svg',
+                            ResourcePath.icChatSvg,
                             colorFilter: const ColorFilter.mode(
                               AppColors.primary,
                               BlendMode.srcIn,

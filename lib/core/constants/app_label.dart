@@ -22,7 +22,7 @@ class AppLabel {
   /// MARK: NavBar Label
   static const chatAppBAr = 'Chat';
   static const telemedisAppBar = 'Telemedis';
-  static const historyAppBar = 'Riwayat';
+  static const historyAppBar = 'Riwayat Chat & Telemedis';
   static const profileAppBar = 'Profil';
 
   /// MARK: History Label

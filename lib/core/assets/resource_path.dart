@@ -27,6 +27,7 @@ class ResourcePath {
   static const String logoHomePng = 'assets/images/logo_horizontal.png';
   static const String fotoProfilePng = 'assets/images/foto_profil.png';
   static const String iconsLogoHandPng = 'assets/icons/hand.png';
+
   // MARK: Chat Assets
   // Icons Assets
   static const String iconsClockPrimaryPng = 'assets/icons/clock_primary.png';
@@ -35,11 +36,17 @@ class ResourcePath {
 
   /// MARK: History Assets
   /// Icons Assets
-  static const String emptyHistoryPng = 'assets/images/empty_history.png';
+  static const String emptyHistorySvg = 'assets/svg/empty_history.svg';
 
   /// MARK: Profile Assets
   // Icons Assets
   static const String icDocumentSvg = 'assets/svg/profile/ic_document.svg';
   static const String icHelpSvg = 'assets/svg/profile/ic_help.svg';
   static const String icLogoutSvg = 'assets/svg/profile/ic_logout.svg';
+
+  // MARK: Telemedis Assets
+  // Icons Assets
+  static const String icChatSvg = 'assets/svg/chat_assets/chat.svg';
+  static const String icPersonHistoryPng = 'assets/icons/person_history.png';
+  static const String icLikeShapesPng = 'assets/icons/like_shapes.png';
 }

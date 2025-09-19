@@ -107,15 +107,13 @@ class CardPremiumChat extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           _itemRow(
-            // Assets.icons.likeShapes.path,
-            'assets/icons/like_shapes.png',
+            ResourcePath.icLikeShapesPng,
             'Akurasi penangan konsultasi',
             4.0,
           ),
           const SizedBox(height: 8),
           _itemRow(
-            // Assets.icons.likeShapes.path,
-            'assets/icons/like_shapes.png',
+            ResourcePath.icLikeShapesPng,
             'Privasi pertanyaan Pengguna',
             4.0,
           )
